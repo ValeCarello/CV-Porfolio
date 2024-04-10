@@ -1,9 +1,91 @@
+
+.box1{
+        background-color: rgb(255, 220, 167);
+        width: 300px;
+        margin-left: 25px;
+        padding: 1px;
+        border-width: 4px;
+        border-color: black;
+        border-style:inset;
+        
+}
+.box2{
+        background-color: rgb(255, 220, 167);
+        width: 300px;
+        margin-left: 25px;
+        padding: 1px;
+        border-width: 4px;
+        border-color: black;
+        border-style:inset;
+      
+}
+.box3{
+        margin-left: 400px;
+        margin-top: -500px;
+        margin-right: 450px;
+        
+}
+
+.box5{
+        margin-left: 400px;
+        margin-top: 50px;
+        margin-right: 450px;
+        
+}
+
+.box4{
+        background-color: rgb(255, 220, 167);
+        width: 300px;
+        margin-left: 25px;
+        padding: 8px;
+        border-width: 4px;
+        border-color: black;
+        border-style:inset;
+       
+        
+}
+img{
+        
+        border-color: black;
+        border-width: 2px;
+        border-style:solid ;
+      
+}
+.box{
+        margin-left: 800px;
+        margin-right: 500px;
+        margin-top: -427px;
+        
+        
+}
+.box7{
+        background-color: rgb(255, 220, 167);
+        width: 300px;
+        margin-left: 25px;
+        padding: 8px;
+        border-width: 4px;
+        border-color: black;
+        border-style:inset;
+      
+        
+}
+.box6{
+        margin-left: 800px;
+        margin-right: 500px;
+        margin-top: -10px;
+        
+        
+        
+}
+
+
 body{
         font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
-        background-image: url(./public/images/fondo-madera-blanca_1627-3123.avif);
-      
+        background-image: url(./public/images/Fondo.Madera.18.jpg);
+        background-attachment: fixed;
+
         
  #Titulo {
         font-family: "Bebas Neue", sans-serif;
@@ -13,25 +95,37 @@ body{
         text-align: center;
         margin-top: 20px;
         margin-bottom: 1px;
-        background-color: rgba(255, 196, 0, 0.493);
+        box-shadow: 10px 10px 50px 10px black;  
  }
 #FotoPerfil {
    width: 280px; 
-   height: 350px; 
-   margin-left: 475px;
+   height: 360px; 
+   margin-left: 464px;
    border-radius: 15%;
-   margin-bottom: 50px;  
+   margin-bottom: 50px;
+   box-shadow: 10px 10px 50px 10px black;  
 }
 #Nombre{
-        text-align: center;
+        margin-left: 525px;
+        margin-right: 525px;
+        margin-top: 15px;
+        background-color: rgb(255, 220, 167);
+        padding: 15px;
+        border-color: black;
+        border-width: 4px;
+        border-style: inset;
+        box-shadow: 10px 10px 50px 10px black;  
+
 }
 #InfoME{
         background-color: rgb(255, 220, 167);
         width: 300px;
         margin-left: 25px;
-        padding: 15px;
+        padding: 18px;
         border-width: 4px;
         border-color: black;
         border-style:inset;
+       
 }
+
 }
