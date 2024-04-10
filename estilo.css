@@ -2,8 +2,19 @@ body{
         font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
-        background-image: url(./public/images/Fondo.Madera.18.jpg);
+        background-image: url(./public/images/fondo-madera-blanca_1627-3123.avif);
+      
         
+ #Titulo {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 85px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 1px;
+        background-color: rgba(255, 196, 0, 0.493);
+ }
 #FotoPerfil {
    width: 280px; 
    height: 350px; 
@@ -12,18 +23,15 @@ body{
    margin-bottom: 50px;  
 }
 #Nombre{
-        margin-left: 555px;
+        text-align: center;
 }
-
-#Titulo {
-    
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 85px;
-        margin-left: 485PX;
-        margin-top: 20px;
-        margin-bottom: 1px;
+#InfoME{
+        background-color: rgb(255, 220, 167);
+        width: 300px;
+        margin-left: 25px;
+        padding: 15px;
+        border-width: 4px;
+        border-color: black;
+        border-style:inset;
 }
-
 }
