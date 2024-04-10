@@ -1,16 +1,29 @@
+body{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-image: url(./public/images/Fondo.Madera.18.jpg);
+        
 #FotoPerfil {
    width: 280px; 
    height: 350px; 
-   margin-left: 500px;
-   border-radius: 50%;  
+   margin-left: 475px;
+   border-radius: 15%;
+   margin-bottom: 50px;  
 }
-
+#Nombre{
+        margin-left: 555px;
+}
 
 #Titulo {
     
-        font-family: "Bungee Spice", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 70px;
-        margin-left: 450PX;
+        font-size: 85px;
+        margin-left: 485PX;
+        margin-top: 20px;
+        margin-bottom: 1px;
+}
+
 }
